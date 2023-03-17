@@ -5,7 +5,7 @@ body {
   /* background-color: #8BC6EC;
   background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
   font-family: 'Mukta', sans-serif;
-  color: #2C74B3;
+
   background-size: cover;
   min-height: 100vh;
 }
@@ -30,6 +30,7 @@ body {
 h1 {
   font-family: 'Dosis', sans-serif;
   text-align: center;
+  color: #53bcb4;
 }
 
 .card {
@@ -38,6 +39,7 @@ h1 {
   border: 2px solid white;
   width: 100%;
   text-align: center;
+  margin-bottom: 7px;
 }
 
 .info-cards {
@@ -174,7 +176,12 @@ button:hover::before {
 
 .social {
   display: flex;
+  position: relative;
 
+}
+
+#follow {
+  color: #53bcb4;
 }
 
 .fa-brands {
@@ -183,8 +190,14 @@ button:hover::before {
 
 .fa-github {
   color: black;
+  position: absolute;
+  left: 41%;
+  top: 1%;
 }
 
 .fa-linkedin {
   color: #0a66c2;
+  position: absolute;
+  right: 41%;
+  top: 1%;
 }
