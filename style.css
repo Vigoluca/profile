@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Mukta&family=Titillium+Web&display=swap');
+
 body {
-  background-image: linear-gradient( 63.1deg,  rgba(5,23,111,1) 16.4%, rgba(24,95,240,1) 64.5% );
+  background-image: url("https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   /* background-color: #8BC6EC;
   background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
-  font-family:'Mukta', sans-serif;
-  color: 2C74B3;
-  background-repeat: no-repeat;
+  font-family: 'Mukta', sans-serif;
+  color: #2C74B3;
+  background-size: cover;
   min-height: 100vh;
 }
 
 .container {
-  width: 600px;   /* This sets the width */
+  width: 600px;
+  /* This sets the width */
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   /* height: 100vh; */
 }
 
-#img-circle{
+#img-circle {
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -29,14 +31,16 @@ h1 {
   font-family: 'Dosis', sans-serif;
   text-align: center;
 }
+
 .card {
   background: rgb(221, 219, 225);
   padding: 30px;
-  border: 2px solid rgba(24,95,240,1);
+  border: 2px solid white;
   width: 100%;
   text-align: center;
 }
-.info-cards{
+
+.info-cards {
   display: flex;
   justify-content: center;
 }
@@ -51,7 +55,9 @@ a {
   margin: 0 auto;
   display: block;
   text-align: center;
+  margin-top: 30px;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -107,7 +113,7 @@ button:hover::before {
   backdrop-filter: blur(5px);
   /* position: absolute; */
   border-bottom: 3px solid rgba(255, 255, 255, 0.440);
-  border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+  border-left: 2px rgba(255, 255, 255, 0.545) outset;
   box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
   transform: skewX(10deg);
   transition: .4s;
@@ -158,14 +164,16 @@ button:hover::before {
   color: rgb(218, 244, 237);
   text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
 }
-li{
+
+li {
   list-style: none;
   padding-left: 0px;
 }
 
-ul{
+ul {
   padding-left: 0;
 }
-.fa-brands{
+
+.fa-brands {
   font-size: 50px;
 }
