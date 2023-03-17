@@ -172,15 +172,19 @@ button:hover::before {
   text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
 }
 
-li {
-  list-style: none;
-  padding-left: 0px;
-}
+.social {
+  display: flex;
 
-ul {
-  padding-left: 0;
 }
 
 .fa-brands {
   font-size: 50px;
+}
+
+.fa-github {
+  color: black;
+}
+
+.fa-linkedin {
+  color: #0a66c2;
 }
